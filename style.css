@@ -1,0 +1,84 @@
+.module_page_vente {
+    display: flex;
+  }
+  
+  .right_content_vente_module {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0px 40px 0px 60px;
+  }
+  
+  .img_module_page_vente {
+    height: 400px;
+    width: 540px;
+  }
+  
+  .beatrice_page_vente {
+      text-align: center;
+      justify-content: center;
+  }
+  
+  .h3_page_vente {
+      font-weight: bold;
+      color: #039e82 !important; 
+  }
+  
+  .h4_page_vente {
+      font-weight: bold;
+      color: #039e82 !important;
+  }
+  
+  .p_final_page_vente {
+      text-align: center;
+  }
+  
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .module_page_vente{
+          display: block;
+      } 
+      
+  }
+  @media (min-width: 768px) and (max-width: 992px) {
+    .module_page_vente{
+          display: block;
+      } 
+      
+      .img_module_page_vente{
+          height: 266px;
+        width: 360px;
+      }
+      
+  }
+  @media (min-width: 600px) and (max-width: 768px) {
+    .module_page_vente{
+          display: block;
+      } 
+      
+      .img_module_page_vente{
+          height: 266px;
+        width: 360px;
+      }
+      
+  }
+  @media (min-width: 420px)  and (max-width: 600px) {
+    .module_page_vente{
+          display: block;
+      }
+      
+      .img_module_page_vente{
+          height: 266px;
+        width: 360px;
+      }
+      
+  }
+  
+  @media (max-width: 420px) {
+    .module_page_vente{
+          display: block;
+  }
+      
+      .img_module_page_vente{
+          height: 266px;
+        width: 360px;
+      }
+  }
